@@ -1,6 +1,6 @@
 # Portfolio
 
-##Criei um portifólio novo :smile: 
+## Criei um portifólio novo :smile: 
 
 Como uma boa libriana amo variar, e é sempre bom criar coisas novas, 
 depois de ter passado 1 ano com o protifolio rosa agora mudei pra um dark :smile: 
