@@ -26,11 +26,12 @@ header {
   background-color: #111111;
   height: 30px;
   width: 100%;
-  position: fixed;
+  position:fixed;
   top:0;
   border-bottom: 1px solid #8b80f9;
   box-shadow: #8b80f9 0px 0px 0px 0px inset,
   #8b80f9 0px 0px 22px 0px;
+  z-index: 1;
 }
 
 .fav {
@@ -132,6 +133,7 @@ li {
 .buttons {
   display: flex;
   justify-content: center;
+  padding: 60px;
 }
  .buttons a{
   margin-left:px;
@@ -258,8 +260,8 @@ li {
 #slide{
   padding: 10px;
   background-color: #191919;
-  padding-top:20%;
   padding-bottom: 20%;
+  padding-top: 15%;
 }
 
 .slide{
@@ -267,7 +269,7 @@ li {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-
+  
 }
 
 .descriptio{
@@ -331,7 +333,6 @@ li {
 
 .hab{
   padding-top: 10%;
-  padding-bottom: 30%;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -386,18 +387,20 @@ li {
 }
 
 .bio img{
-  width: 30%;
+  width: 25%;
   border-radius: 50%;
+  padding: 10px;
 }
 
 .bio{
-  padding: 20px;
+  padding: 35px;
   display: flex;
   align-items:flex-end;
   justify-content: center;
- 
+  flex-wrap: wrap;
 }
 .bio p{
+  width: 700px;
   padding: 20px;
   color: #FFF;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
