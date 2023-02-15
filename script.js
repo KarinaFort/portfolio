@@ -9,8 +9,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 //Slide
 let slides = [
-    { title: 'Clone do Instagram', img: '/img/insta.jpeg' },
-    { title: 'Clone da Netflix', img: '/img/netflix.jpg' },
+    { title: 'Clone do Instagram', img: '/img/insta.png' },
+    { title: 'Clone da Netflix', img: '/img/netflix.png' },
     { title: 'Jogo da velha', img: '/img/jogo-da-velha.png' },
     { title: 'Jogo da Memória', img: '/img/memoria.png' },
     { title: 'Player de Musica', img: '/img/player.png' },

@@ -228,6 +228,19 @@ li {
   color: #111111;
 }
 
+.git{
+  color: #ff7f50;
+  padding: 20px;
+  animation: flut 3.9s linear infinite;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.git:hover{
+  color: #111111;
+}
+
 @keyframes flut{
 
   0%,
@@ -236,7 +249,7 @@ li {
   }
 
   50% {
-      transform: translateY(-23px);
+      transform: translateY(-53px);
   }
 }
 
@@ -285,7 +298,7 @@ li {
 }
 
 .image{
-  width: 50%;
+  width: 60%;
   border-radius: 25px;
   box-shadow: #8b80f9 0px 0px 0px 0px inset,
   #8b80f9 0px 0px 22px 0px;
@@ -363,7 +376,7 @@ li {
 }
 
 .perse{
-  animation: flut 3.8s linear infinite;
+  animation: flut 3.5s linear infinite;
 }
 
 .criative{
@@ -375,7 +388,7 @@ li {
 }
 
 .communit{
-  animation: flut 2s linear infinite;
+  animation: flut 3.2s linear infinite;
 }
 
 .colabor{
@@ -398,6 +411,7 @@ li {
   align-items:flex-end;
   justify-content: center;
   flex-wrap: wrap;
+  padding-top: 65px;
 }
 .bio p{
   width: 700px;
@@ -432,3 +446,4 @@ footer{
   align-items: center;
   padding: 5%;
 }
+
