@@ -3,7 +3,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     new TypeIt(".apresentation", {
         speed: 100,
-        strings: ["Meu nome é Karina, aqui você vai encontrar alguns dos meus projetos."]
+        strings: [""]
     }).go()
 });
 
