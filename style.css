@@ -189,6 +189,9 @@ li {
 .css:hover{
   color: #111111;
 }
+svg{
+  padding: 15px;
+}
 
 .js{
   color: yellow;
